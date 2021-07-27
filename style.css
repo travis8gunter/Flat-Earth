@@ -1,0 +1,119 @@
+#logo {
+    background-image:url(images/logo.jpg);
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size: cover;
+    
+}
+#main-photo{
+    background-image: url(images/solarsystem.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#dome{
+    background-image: url(images/earthview.jpg);
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+/*///////////////////Content css/////////////////*/
+.wrapper {
+    grid-template-columns:1fr 2fr;
+}
+.body-container {
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+}
+
+/*///////////////NAV//////////////////*/ 
+nav{
+    display: grid;
+    align-content: flex-start;
+}
+nav ul {
+    display: grid;
+    padding: 20px;
+    
+}
+nav ul a{
+    color: black;
+    padding: 15px;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: white;
+    color: red;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns:1fr 4fr 1fr;
+    width: auto;
+}
+body {
+    background-color: #edeeef;
+    text-decoration-color: #555;
+    margin: 0;
+    font-family:Lato;
+}
+
+/*////////////////body start//////////////*/
+#eclipse {
+    background-image: url(images/eclipse.jpg);
+    height: 200px;
+    background-position: center;
+    background-size: contain;
+}
+#teacher-photo {
+    background-image: url(images/education.jpg);
+    height: 370px;
+    width: 500px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 10px;
+}
+.intro-start {
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+}
+.intro-start p {
+    display: grid;
+    margin: 2px;
+}
+.intro-start .firstp {   
+    margin-bottom: 100px;
+}
+.intro-start .secondp {
+    height: 200px;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    font-size: x-large;
+}
+h1{
+    text-decoration: underline;
+}
+h2{
+    text-decoration: underline;
+}
+video {
+    background-position: cover;
+    width: 100%;
+}
+p {
+    text-align: justify;
+}
+
+footer {
+    align-content: center;
+    display: grid;
+    justify-content: center;
+    background-color: lightblue;
+}
