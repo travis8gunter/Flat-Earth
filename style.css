@@ -101,3 +101,24 @@ footer {
     justify-content: center;
     background-color: lightblue;
 }
+@media screen and (max-width:480px){
+    .nav-ul a {
+        color: white;
+        padding: 15px;
+    } 
+    .nav ul {
+        display: flex;
+        padding: 10px;
+    }
+    #logo {
+        width: 100px;
+        height: 100px;
+    }
+    #main-photo {
+        height: 0px;
+    }
+    .nav {
+        position: absolute;
+        
+    }
+}
